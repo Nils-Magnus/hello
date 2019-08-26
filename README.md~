@@ -1,0 +1,30 @@
+Hello
+=====
+
+a language interpreter by Nils Magnus (magnus@linuxtag.org)
+
+**Hello** is a strong typed, infix-notated, object-oriented,
+imperative, functional, and fictional solution specific language. It
+was invented by Nils Magnus during a team event at secunet Security
+Networks AG in 2004.
+
+Language
+--------
+
+**Hello** is an interpreted language. To write code in **Hello**, you
+need the Hello-interpreter available in this repository (see
+Installation). The Hello-scripts can be of arbitrary length (depending
+on operating system and hard disk capacity) and accept arbitrary
+encoding of the source code.
+
+Empty source code makes **Hello** to write "Hello World" to standard
+output. In any other case, a slight, but society tolerated insultation
+based on furry animals is issued (platform depending).
+
+Installation
+------------
+
+The Hello-interpreter is written in C. Prerequisites are a C compiler,
+the `make` and `git` utilities, and an operating system that tries to
+conform to POSIX. To compile the interpreter, check out the project
+and run `make`.
